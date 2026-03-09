@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">作业助手</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">登录</string>
+    <string name="login_hint_student_id">学号</string>
+    <string name="login_hint_password">统一认证密码</string>
+    <string name="login_button">登录</string>
+    <string name="login_remember">记住账号</string>
+    <string name="login_ing">正在登录…</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败：%s</string>
+    <string name="login_empty_fields">请输入学号和密码</string>
+    
+    <!-- Main Screen -->
+    <string name="main_title">未完成作业</string>
+    <string name="main_empty">今日无事可做</string>
+    <string name="main_loading">加载中…</string>
+    <string name="main_error">加载失败：%s</string>
+    <string name="main_refresh">刷新</string>
+    <string name="main_logout">退出登录</string>
+    <string name="main_logout_confirm">确定要退出登录吗？</string>
+    <string name="main_last_update">最后更新：%s</string>
+    <string name="main_auto_refresh">自动刷新</string>
+    
+    <!-- Homework Detail -->
+    <string name="homework_detail_title">作业详情</string>
+    <string name="homework_course">课程</string>
+    <string name="homework_deadline">截止时间</string>
+    <string name="homework_status">状态</string>
+    <string name="homework_content">内容</string>
+    <string name="homework_attachment">附件</string>
+    <string name="homework_submit">提交作业</string>
+    
+    <!-- Common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="retry">重试</string>
+    <string name="close">关闭</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="error_network">网络连接失败</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh">刷新</string>
+    <string name="no_network">当前无网络连接</string>
+    
+    <!-- Time Format -->
+    <string name="time_format">yyyy-MM-dd HH:mm</string>
+    <string name="date_format">yyyy-MM-dd</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">作业提醒</string>
+    <string name="notification_channel_desc">作业自动刷新通知</string>
+    <string name="notification_refresh_title">作业列表已更新</string>
+    <string name="notification_refresh_content">发现 %d 项未完成作业</string>
+</resources>
